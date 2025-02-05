@@ -1,6 +1,7 @@
 import React, {useEffect} from 'react'
 import { useNavigate } from 'react-router-dom';
 import HomeButton from '../components/HomeButton';
+import NavBar from '../components/NavBar';
 
 const MonthlyTodo = () => {
   useEffect(()=>{
@@ -10,9 +11,10 @@ const MonthlyTodo = () => {
         document.body.classList.remove('universal-bg')
       }
     },[])
-    
+
   return (
-    <div>
+    <div className='container'>
+      <NavBar />
       <h1>
         MonthlyTodo
       </h1>

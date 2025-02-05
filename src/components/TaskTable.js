@@ -28,7 +28,7 @@ const TaskTable = ({onTaskSubmit, tasks}) => {
           className='form-pri-input'
           value={inputValue.priority}
           onChange={handleInputChange}
-          placeholder="Enter Priority"
+          placeholder="Priority"
           />
           <input 
             type="text"
@@ -36,14 +36,14 @@ const TaskTable = ({onTaskSubmit, tasks}) => {
             className='form-task-input'
             value={inputValue.task}
             onChange={handleInputChange}
-            placeholder="Enter Task"
+            placeholder="Task"
           />
           <button type='submit' className='submit-button' >Add</button>
         </form>
       </div>
       
 
-      <table border='1' className='task-table'>
+      <table border='1' style={style.taskTable}>
         <thead>
           <tr>
             <th style={{width:'15%'}}>Priority</th>
@@ -83,4 +83,15 @@ const TaskTable = ({onTaskSubmit, tasks}) => {
   // )} 
 }
 
+const style = {
+  taskTable:{
+    width: '70vw', /* Takes 80% of the viewport width */
+    maxWidth: '1200px', /* Optional: Set a max width for large screens */
+    height: '10vh', 
+    // display: 'grid',
+    // gridTemplateColumns: 'repeat(7, 1fr)',
+    gap: '10px',
+    marginTop: '20px'
+  }
+}
 export default TaskTable

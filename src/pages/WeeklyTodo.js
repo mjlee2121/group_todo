@@ -1,5 +1,6 @@
 import React, {useEffect} from 'react'
 import HomeButton from '../components/HomeButton'
+import NavBar from '../components/NavBar'
 
 const WeeklyTodo = () => {
   useEffect(()=>{
@@ -11,7 +12,8 @@ const WeeklyTodo = () => {
       },[])
 
   return (
-    <div>
+    <div className='container'>
+      <NavBar />
       <h1>
         This is Weekly Todo Page
       </h1>

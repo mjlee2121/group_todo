@@ -14,17 +14,15 @@ const DailyTodo = () => {
       },[])
 
   return (
-    <div>
+    <div className='conatiner'>
     <NavBar />
-    <h1>Daily To Do</h1>
-    <div className='container' >
+    <h1 style={{display:'flex', justifyContent:'center'}}>Daily To Do</h1>
       <div className='left-pane' >
         <Calendar />
       </div>
       <div className='right-pane' >
         <TaskTable />
       </div>
-    </div>
     <HomeButton />
   </div>
   )

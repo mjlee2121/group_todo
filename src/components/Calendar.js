@@ -61,14 +61,14 @@ const Calendar = () => {
 
   return (
     <div>
-      <div style={styles.monthYear}>
-        <button className="prev-next-button" onClick={handlePrevMonth}>
-            <i class="fa-solid fa-arrow-left" style={{borderRadius:'6px'}}></i>
+      <div style={styles.monthYearDisplay}>
+        <button className="prev-next-button" style={styles.arrow} onClick={handlePrevMonth}>
+            <i class="fa-solid fa-arrow-left" ></i>
         </button>
-        <h2>
+        <h2 style={styles.monthYear}>
           {monthNames[month]} {year}
         </h2>
-        <button className="prev-next-button" onClick={handleNextMonth}>
+        <button className="prev-next-button" style={styles.arrow} onClick={handleNextMonth}>
           <i class="fa-solid fa-arrow-right"></i>
         </button>
       </div>
@@ -114,12 +114,27 @@ const Calendar = () => {
 };
 
 const styles = {
-  monthYear:{
+  monthYearDisplay:{
     display: 'flex',
     alignItems:'center',
     justifyContent:'center',
     gap:'10px',
     marginBottom:'20px'
+  },
+  monthYear:{
+    display:'flex',
+    width:'20vw',
+    justifyContent:'center',
+    alignItems:'center'
+  },
+  arrow:{
+    display:'flex',
+    width:'3vw',
+    height:'3vh',
+    alignItems:'center',
+    borderRadius:'6px',
+    border:'0',
+    justifyContent:'center'
   },
   tableHeader: {
     width: '80vw', /* Takes 80% of the viewport width */

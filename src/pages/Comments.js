@@ -1,5 +1,6 @@
 import React, {useEffect} from 'react'
 import HomeButton from '../components/HomeButton'
+import NavBar from '../components/NavBar'
 
 const Comments = () => {
   useEffect(()=>{
@@ -11,7 +12,8 @@ const Comments = () => {
     },[])
 
   return (
-    <div>
+    <div className='container'>
+      <NavBar />
       <h1>
       This is Comments page
       </h1>
