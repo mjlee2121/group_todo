@@ -1,3 +1,11 @@
+
+# Starting page
+The ###landing page### shows welcome message.
+Once all the message is displayed, it will redirect to the Home page, where you'll see the calendar
+https://github.com/user-attachments/assets/68a36573-44e7-4228-bf32-0806cf7467a6
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
