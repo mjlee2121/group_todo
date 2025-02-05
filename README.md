@@ -1,10 +1,9 @@
 
 # Starting page
-The ###landing page### shows welcome message.
+The landing page shows welcome message.
 Once all the message is displayed, it will redirect to the Home page, where you'll see the calendar
-[![Watch the video](Click)](
-https://github.com/user-attachments/assets/68a36573-44e7-4228-bf32-0806cf7467a6)
 
+![Screen Recording 2025-02-05 at 10 34 07 AM](https://github.com/user-attachments/assets/6eff1379-c965-43f0-b910-9a9d5ab54938)
 
 
 
