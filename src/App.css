@@ -44,6 +44,7 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+
 /*  */
 .prev-next-button:hover {
   cursor: pointer;
@@ -108,6 +109,11 @@
   padding: 10px;
   border-radius: 8px;
 }
+/* Calendar */
+.calendar-small {
+
+}
+
 /* task table */
 .form-input {
   display: flex;
