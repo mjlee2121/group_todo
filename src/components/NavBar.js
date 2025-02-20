@@ -3,7 +3,7 @@ import { Link }from 'react-router-dom'
 
 const NavBar = () => {
   const [hoveredIndex, setHoveredIndex ] = useState(null)
-  const contents=['dailytodo','weeklytodo','monthlytodo','comments', 'login','etc' ]
+  const contents=['dailytodo','weeklytodo','monthlytodo','comments', 'login']
   
   return (
     <div>
