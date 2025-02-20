@@ -21,6 +21,10 @@ const Comments = () => {
         </h1>
       <Share />
       <Post />
+      <Post />
+      <Post />
+      <Post />
+
       <HomeButton />
     </div>
   )
